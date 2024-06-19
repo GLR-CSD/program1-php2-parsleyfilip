@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// Haal de eventuele fouten en formulier waarden op uit de sessie
+// Haal de eventuele fouten en formulier waarden op u ytest it de sessie
 $errors = $_SESSION['errors'] ?? [];
 $formValues = $_SESSION['formValues'] ?? [];
 
